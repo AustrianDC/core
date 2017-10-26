@@ -1,4 +1,11 @@
-Feature: login
+Feature: login users
+As a user
+I want to be able to log into my account
+So that i have acess to my files
+
+As an admin
+I want only autherised users to log in
+So that unautherised acess is impossible
 
 	Scenario: simple user login
 		Given a regular user exists

@@ -1,4 +1,7 @@
-Feature: Sharing
+Feature: Sharing files and folders with internal users
+As a user
+I want to share files and folders with groups and users
+So that those groups and users can acess the files and folders
 
 	Background:
 		Given these users exist:
@@ -63,4 +66,3 @@ Feature: Sharing
 		And I login with username "user1" and password "1234"
 		And I open the folder "simple-folder (2)"
 		Then it should not be possible to delete the file "lorem.txt"
-		

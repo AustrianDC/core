@@ -1,4 +1,7 @@
-Feature: delete
+Feature: deleting files and folders
+As a user
+I want to delete files and folders
+So that i do not fill up my ownCloud space with junk
 
 	Background:
 		Given a regular user exists
